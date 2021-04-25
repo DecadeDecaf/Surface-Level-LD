@@ -1,5 +1,6 @@
 global.Points = 0
 global.Combo = 0
+global.HighestCombo = 0
 
 Notes = []
 Interval = []

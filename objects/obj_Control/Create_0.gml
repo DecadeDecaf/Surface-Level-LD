@@ -16,9 +16,10 @@ global.Turn = false
 
 global.Points = 0
 global.Combo = 0
+global.HighestCombo = 0
 
 global.Relationships = [0, 0, 0, 0]
 global.Ending = -1
 
-global.Scene = 1
+global.Scene = 9
 instance_create_depth(960, 1048, 0, obj_Dialog)
