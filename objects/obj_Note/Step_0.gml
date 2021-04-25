@@ -11,9 +11,7 @@ if (Piper) {
 if (y > 1050) {
 	instance_destroy()
 	global.Combo = 0
-}
-
-else if (y > 975) {
+} else if (y > 975) {
 	if (keyboard_check_pressed(ord(string(Note + 1)))) {
 		if (abs(y - 1000) < 8) {
 			global.Points += 25
