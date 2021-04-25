@@ -20,7 +20,7 @@ if (global.End) {
 		global.Scene += 1
 		var lay = layer_get_id("Background")
 		var bg = layer_background_get_id(lay)
-		if (global.Scene == 4) {
+		if (global.Scene == 4 || global.Scene == 11 || global.Scene == 12 || global.Scene == 19 || global.Scene == 20) {
 			layer_background_sprite(bg, bg_Night)
 		} else {
 			layer_background_sprite(bg, bg_Day)
