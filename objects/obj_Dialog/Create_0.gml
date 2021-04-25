@@ -241,7 +241,7 @@ if (global.Scene == 1) {
 		]
 	} else {
 		Messages = [
-			["Piper", "No, it was actually Eric Carle."],
+			["Atlas", "No, it was actually Eric Carle."],
 			["Hayes", "Ah; should've known."],
 			["Hayes", "Who would write a book like that, anyway? It's just about someone being hungry and then metamorphosing. Pretty standard stuff."],
 			["Atlas", "It's for young children, Hayes."],
