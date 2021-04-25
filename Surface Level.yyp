@@ -29,6 +29,7 @@
     {"id":{"name":"snd_Piper4","path":"sounds/snd_Piper4/snd_Piper4.yy",},"order":2,},
     {"id":{"name":"spr_Flower","path":"sprites/spr_Flower/spr_Flower.yy",},"order":3,},
     {"id":{"name":"snd_Piper3","path":"sounds/snd_Piper3/snd_Piper3.yy",},"order":1,},
+    {"id":{"name":"obj_Ending","path":"objects/obj_Ending/obj_Ending.yy",},"order":12,},
     {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},"order":0,},
   ],
   "Options": [

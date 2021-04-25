@@ -518,25 +518,71 @@ if (global.Scene == 1) {
 } else if (global.Scene == 29) {
 	if (global.Ending == 0) {
 		Messages = [
-			["Hayes", "This is the end of the game for now, but you would've gotten the Atlas ending."]
+			["Atlas", "I have another question for you. This one's a little different."],
+			["Hayes", "Yeah, Atlas?"],
+			["Atlas", "Um. Do you want to go to dinner with me?"],
+			["Hayes", "Oh, wow. Yes, I'd love to!"],
+			["Atlas", "Well, it would probably have to be delivery or takeout considering—"],
+			["Hayes", "Shut up, Atlas."]
 		]
 	} else if (global.Ending == 1) {
 		Messages = [
-			["Hayes", "This is the end of the game for now, but you would've gotten the Bentley ending."]
+			["Bentley", "Hey. I brought you a flower."],
+			["Hayes", "I think I'll let you start this time."],
+			["Bentley", "This one isn't for plucking. It's for you."],
+			["Hayes", "...!"],
+			["Bentley", "Take it."],
+			["Hayes", "Thank you, Bentley. I love it."]
 		]
 	} else if (global.Ending == 2) {
 		Messages = [
-			["Hayes", "This is the end of the game for now, but you would've gotten the Piper ending."]
+			["Piper", "I got us a gig!"],
+			["Hayes", "What?! I wasn't THAT serious!"],
+			["Piper", "Okay, okay. Bad wording. It's in front of my parents."],
+			["Hayes", "That sounds even more stressful!"],
+			["Piper", "Why's that? They're lovely people."],
+			["Hayes", "I'm sure they are."],
+			["Piper", "I can reschedule if you want."],
+			["Hayes", "No, wait. Actually... Let's do this!"],
 		]
 	} else if (global.Ending == 3) {
 		Messages = [
-			["Hayes", "This is the end of the game for now, but you would've gotten the Avery ending."]
+			["Avery", "Hayes, wake up."],
+			["Hayes", "Ugh, Avery. You've gotta stop waking me up in the middle of the night."],
+			["Avery", "It's 10:00 AM, sleepyhead."],
+			["Hayes", "Whoops."],
+			["Avery", "Thanks for letting me stay here. Things aren't great at home."],
+			["Hayes", "Any time. Want to talk about it?"],
+			["Avery", "I'd love to."]
 		]
 	} else {
 		Messages = [
-			["Hayes", "This is the end of the game for now, but you would've gotten the Hayes ending."]
+			["Hayes", "...zzz..."],
+			["Hayes", "...Huh? Avery's gone."],
+			["Hayes", "Whatever. I'm sure they'll be back tonight."]
 		]
 	}
+} else if (global.Scene == 30) {
+	Messages = [
+			["Hayes", "Atlas should be here by now. Do they even have work on Sundays?"],
+			["Hayes", "They should, right? Sunday is when the newspaper circulates."]
+	]
+} else if (global.Scene == 31) {
+	Messages = [
+			["Hayes", "Atlas should be here by now. Do they even have work on Sundays?"],
+			["Hayes", "They should, right? Sunday is when the newspaper circulates."]
+	]
+} else if (global.Scene == 32) {
+	Messages = [
+			["Hayes", "...Bentley isn't showing up either."],
+			["Hayes", "What did I do wrong?"]
+	]
+} else if (global.Scene == 33) {
+	Messages = [
+			["Hayes", "Even Piper won't come see me."],
+			["Hayes", "I'm—"],
+			["Hayes", "Ugh. I shouldn't expect that from them. I barely even know them. I'm sure they have better things to do right now."]
+	]
 } else {
 	Messages = [
 		["Hayes", "This is the end of the game for now."]

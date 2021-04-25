@@ -57,6 +57,10 @@ if (space) {
 			} else if (global.Scene == 27) {
 				audio_sound_gain(snd_Theme, 0.25, 1500)
 				instance_create_depth(960, 540, 0, obj_Sky)
+			} else if (global.Scene == 29 && global.Ending != -1) {
+				instance_create_depth(960, 540, 0, obj_Ending)
+			} else if (global.Scene == 33 && global.Ending != -1) {
+				instance_create_depth(960, 540, 0, obj_Ending)
 			} else {
 				global.End = true
 			}
