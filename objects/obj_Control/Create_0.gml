@@ -21,5 +21,5 @@ global.HighestCombo = 0
 global.Relationships = [0, 0, 0, 0]
 global.Ending = -1
 
-global.Scene = 9
+global.Scene = 1
 instance_create_depth(960, 1048, 0, obj_Dialog)
