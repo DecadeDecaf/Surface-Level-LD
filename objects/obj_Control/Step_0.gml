@@ -18,6 +18,27 @@ if (global.End) {
 		global.Start = false
 		global.End = false
 		global.Scene += 1
+		if (global.Scene == 29) {
+			var priority = []
+			var subpriority = []
+			for (var i = 0; i < 4; i++) {
+				if (global.Relationships[@ i] >= 3) {
+					array_push(priority, i)
+				}
+				if (global.Relationships[@ i] >= 2) {
+					array_push(subpriority, i)
+				}
+			}
+			var len = array_length(priority)
+			var sublen = array_length(subpriority)
+			if (len > 0) {
+				var ending = irandom_range(0, len - 1)
+				global.Ending = priority[@ ending]
+			} else if (sublen > 0) {
+				var ending = irandom_range(0, sublen - 1)
+				global.Ending = subpriority[@ ending]
+			}
+		}
 		var lay = layer_get_id("Background")
 		var bg = layer_background_get_id(lay)
 		if (global.Scene == 4 || global.Scene == 11 || global.Scene == 12 || global.Scene == 19 || global.Scene == 20 || global.Scene == 27 || global.Scene == 28) {

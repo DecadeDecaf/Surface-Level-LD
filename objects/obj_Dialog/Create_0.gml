@@ -82,6 +82,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 6) {
 	if (global.Correct) {
+		global.Relationships[@ 0] += 1
 		Messages = [
 			["Atlas", "That's right! Also, I'm not an insect, but the same is true for earthworms."],
 			["Hayes", "Huh. Didn't know earthworms had hearts."],
@@ -133,6 +134,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 8) {
 	if (global.Correct) {
+		global.Relationships[@ 1] += 1
 		Messages = [
 			["Bentley", "You won; congrats!"],
 			["Hayes", "Uh, it's just luck. We could've just as easily flipped a coin."],
@@ -167,6 +169,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 10) {
 	if (global.Correct) {
+		global.Relationships[@ 2] += 1
 		Messages = [
 			["Piper", "Wow. You're a natural!"],
 			["Hayes", "I guess I am!"],
@@ -203,6 +206,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 12) {
 	if (global.Correct) {
+		global.Relationships[@ 3] += 1
 		Messages = [
 			["Avery", "That's how many I counted, too."],
 			["Avery", "I could look at the stars all night."],
@@ -227,6 +231,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 14) {
 	if (global.Correct) {
+		global.Relationships[@ 0] += 1
 		Messages = [
 			["Atlas", "That's right!"],
 			["Hayes", "Sweet."],
@@ -252,6 +257,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 16) {
 	if (global.Correct) {
+		global.Relationships[@ 1] += 1
 		Messages = [
 			["Bentley", "Alright, you won."],
 			["Hayes", "Fair and square."],
@@ -279,6 +285,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 18) {
 	if (global.Correct) {
+		global.Relationships[@ 2] += 1
 		Messages = [
 			["Piper", "You continue to impress me!"],
 			["Hayes", "Thanks!"],
@@ -303,6 +310,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 20) {
 	if (global.Correct) {
+		global.Relationships[@ 3] += 1
 		Messages = [
 			["Avery", "Mhm. That's how many I counted..."],
 			["Avery", "..."],
@@ -343,6 +351,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 22) {
 	if (global.Correct) {
+		global.Relationships[@ 0] += 1
 		Messages = [
 			["Atlas", "Wow, I'm surprised you knew that. Lucky guess?"],
 			["Hayes", "Let's call it an estimate."],
@@ -365,6 +374,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 24) {
 	if (global.Correct) {
+		global.Relationships[@ 1] += 1
 		Messages = [
 			["Bentley", "You beat me!"],
 			["Hayes", "Nothing like a drawn-out fifty-fifty to spice up my day."],
@@ -405,6 +415,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 26) {
 	if (global.Correct) {
+		global.Relationships[@ 2] += 1
 		Messages = [
 			["Piper", "Damn!! What a performance!"],
 			["Hayes", "I try."],
@@ -463,6 +474,7 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 28) {
 	if (global.Correct) {
+		global.Relationships[@ 3] += 1
 		Messages = [
 			["Avery", "Same number here."],
 			["Hayes", "Hey, Avery?"],
@@ -501,6 +513,28 @@ if (global.Scene == 1) {
 			["Avery", "Is it okay if I sleep here? But like... a couple yards away?"],
 			["Hayes", "Avery. A couple yards away is NOT here. How about a couple inches?"],
 			["Avery", "I'd like that."]
+		]
+	}
+} else if (global.Scene == 29) {
+	if (global.Ending == 0) {
+		Messages = [
+			["Hayes", "This is the end of the game for now, but you would've gotten the Atlas ending."]
+		]
+	} else if (global.Ending == 1) {
+		Messages = [
+			["Hayes", "This is the end of the game for now, but you would've gotten the Bentley ending."]
+		]
+	} else if (global.Ending == 2) {
+		Messages = [
+			["Hayes", "This is the end of the game for now, but you would've gotten the Piper ending."]
+		]
+	} else if (global.Ending == 3) {
+		Messages = [
+			["Hayes", "This is the end of the game for now, but you would've gotten the Avery ending."]
+		]
+	} else {
+		Messages = [
+			["Hayes", "This is the end of the game for now, but you would've gotten the Hayes ending."]
 		]
 	}
 } else {
