@@ -8,11 +8,15 @@ var instructions = ((!global.Turn || instance_number(obj_Petal) <= 0) ? "" : "(c
 draw_set_color($FFFFFF)
 draw_set_alpha(1)
 draw_set_halign(fa_center)
-draw_text_transformed(x, y - 240, loves, 0.75, 0.75, 0)
-draw_text_transformed(x, y - 180, instructions, 0.45, 0.45, 0)
+draw_text_transformed(x, y - 260, loves, 0.75, 0.75, 0)
+draw_text_transformed(x, y - 200, instructions, 0.45, 0.45, 0)
+
+with (obj_PostPetal) {
+	draw_self()
+}
 
 with (obj_Petal) {
-	draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, image_angle, -1, 1)
+	draw_self()
 }
 
 draw_self()

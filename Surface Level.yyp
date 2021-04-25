@@ -10,6 +10,7 @@
     {"id":{"name":"snd_Hayes4","path":"sounds/snd_Hayes4/snd_Hayes4.yy",},"order":6,},
     {"id":{"name":"obj_Song","path":"objects/obj_Song/obj_Song.yy",},"order":6,},
     {"id":{"name":"obj_Sky","path":"objects/obj_Sky/obj_Sky.yy",},"order":9,},
+    {"id":{"name":"obj_PostPetal","path":"objects/obj_PostPetal/obj_PostPetal.yy",},"order":11,},
     {"id":{"name":"obj_Star","path":"objects/obj_Star/obj_Star.yy",},"order":10,},
     {"id":{"name":"spr_Note","path":"sprites/spr_Note/spr_Note.yy",},"order":5,},
     {"id":{"name":"obj_Flower","path":"objects/obj_Flower/obj_Flower.yy",},"order":4,},
