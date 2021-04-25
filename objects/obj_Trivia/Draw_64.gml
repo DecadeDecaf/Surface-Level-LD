@@ -2,13 +2,13 @@ draw_set_color($000000)
 draw_set_alpha(0.5)
 draw_rectangle(0, 0, 1920, 1080, false)
 
+var len = array_length(Answers)
+
 draw_set_color($FFFFFF)
 draw_set_alpha(1)
 draw_set_halign(fa_center)
 draw_text_transformed(x, y - 160, Question, 0.75, 0.75, 0)
-draw_text_transformed(x, y - 100, "(press a number 1-4 on your keyboard)", 0.45, 0.45, 0)
-
-var len = array_length(Answers)
+draw_text_transformed(x, y - 100, "(press a number 1-" + string(len) + " on your keyboard)", 0.45, 0.45, 0)
 
 var xx = x - ((Spread / 2) * (len - 1))
 

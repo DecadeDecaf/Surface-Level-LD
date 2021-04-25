@@ -69,7 +69,7 @@ if (global.Scene == 1) {
 		["Atlas", "Indeed."],
 		["Hayes", "Sorry for being so dismissive yesterday."],
 		["Atlas", "No worries. I was in a hurry anyway."],
-		["Hayes", "...so what do you do for a living?"],
+		["Hayes", "...So what do you do for a living?"],
 		["Atlas", "I'm in charge of the games & puzzles section for the local newspaper."],
 		["Hayes", "Like, crossword?"],
 		["Atlas", "Everything except crossword, actually. Crossword is handled by someone else entirely!"],
@@ -113,7 +113,7 @@ if (global.Scene == 1) {
 		["Bentley", "Oh. Sorry, I thought you'd want to know."],
 		["Hayes", "I mean. I appreciate the thought."],
 		["Bentley", "Hayes, right? Do you have any close friends?"],
-		["Hayes", "...close?"],
+		["Hayes", "...Close?"],
 		["Bentley", "Yeah. Your definition of close."],
 		["Hayes", "No, not really."],
 		["Bentley", "Hmph. Must be hard making friends when you can't move, huh?"],
@@ -154,7 +154,7 @@ if (global.Scene == 1) {
 		["Piper", "Do you like music?"],
 		["Hayes", "Sure, why not? I don't hear much of it out here, though."],
 		["Piper", "Maybe we could start a band! It could be called... Rock & Roll."],
-		["Hayes", "I was initially going to decline, but I gotta admit: that was really clever."],
+		["Hayes", "I was initially going to decline, but I gotta admit: that was pretty clever."],
 		["Hayes", "I don't play an instrument, though."],
 		["Piper", "Nonsense! You can hum, right?"],
 		["Hayes", "I have the physical requirements that render me capable of humming, yes."],
@@ -194,7 +194,7 @@ if (global.Scene == 1) {
 		["Avery", "And you were sleeping just now..."],
 		["Hayes", "But it's a lovely night out!"],
 		["Avery", "It is!"],
-		["Avery", "...want to count some shooting stars?"],
+		["Avery", "...Want to count some shooting stars?"],
 		["Hayes", "Uh, I just counted: zero."],
 		["Avery", "What do you mean, zero? Look at the sky!"],
 		["Hayes", "Oh wow. Guess I never really paid enough attention."],
@@ -344,109 +344,163 @@ if (global.Scene == 1) {
 } else if (global.Scene == 22) {
 	if (global.Correct) {
 		Messages = [
-			["Atlas", "That's right!"],
-			["Hayes", "Sweet."],
-			["Hayes", "Now that I think about it, who would write a book like that? It's just about someone being hungry and then metamorphosing. Pretty standard stuff."],
-			["Atlas", "It's for young children, Hayes."],
-			["Hayes", "Right, sorry."]
+			["Atlas", "Wow, I'm surprised you knew that. Lucky guess?"],
+			["Hayes", "Let's call it an estimate."],
+			["Atlas", "Ha! Thanks for being a part of my mornings, Hayes."],
+			["Hayes", "Of course."]
 		]
 	} else {
 		Messages = [
-			["Piper", "No, it was actually Eric Carle."],
-			["Hayes", "Ah; should've known."],
-			["Hayes", "Who would write a book like that, anyway? It's just about someone being hungry and then metamorphosing. Pretty standard stuff."],
-			["Atlas", "It's for young children, Hayes."],
-			["Hayes", "Right, sorry."]
+			["Atlas", "Nope. I'm an annelid! Don't blame you, though. That one was tough."],
+			["Hayes", "Gotcha. These are fun!"],
+			["Atlas", "Great! Thanks for being a part of my mornings, Hayes."],
+			["Hayes", "Of course."]
 		]
 	}
 } else if (global.Scene == 23) {
 	Messages = [
-		["Bentley", "I brought a lovely flower for us to pick today."],
-		["Hayes", "How do I know you didn't just count the petals before coming over here?"],
-		["Bentley", "Um. You can decide who starts."],
-		["Hayes", "I'll start."]
+		["Bentley", "Hi Hayes! I brought another flower for us to pick. And yes, you can choose who goes first again."],
+		["Hayes", "I think I'll go first once more."],
+		["Bentley", "Sure thing."]
 	]
 } else if (global.Scene == 24) {
 	if (global.Correct) {
 		Messages = [
-			["Bentley", "Alright, you won."],
-			["Hayes", "Fair and square."],
-			["Bentley", "Fair and square!"],
-			["Bentley", "I'll see you tomorrow, Hayes."],
-			["Hayes", "See ya."]
+			["Bentley", "You beat me!"],
+			["Hayes", "Nothing like a drawn-out fifty-fifty to spice up my day."],
+			["Bentley", "Yeah! Anticipation!"],
+			["Bentley", "Why else would people play Chutes and Ladders?"],
+			["Hayes", "You know, I never actually thought about that. Outside of rigging the spinner, Chutes and Ladders is completely luck-based."],
+			["Bentley", "Exactly. I'm very lucky."],
+			["Hayes", "But I won today, didn't I?"],
+			["Bentley", "I'm very lucky to have met you."],
+			["Hayes", "..."],
+			["Hayes", "Me too."],
+			["Bentley", "You're adorable. See you tomorrow!"],
+			["Hayes", "Bye!"]
 		]
 	} else {
 		Messages = [
-			["Bentley", "Despite your best efforts, I still won."],
-			["Hayes", "If I get to decide who starts, I'm not gonna count the petals! That would make me a hypocrite."],
-			["Bentley", "This game is hilariously flawed."],
-			["Bentley", "I'll see you tomorrow, Hayes."],
-			["Hayes", "See ya."]
+			["Bentley", "I win!"],
+			["Hayes", "Nothing like a drawn-out fifty-fifty to spice up my day."],
+			["Bentley", "Yeah! Anticipation!"],
+			["Bentley", "Why else would people play Chutes and Ladders?"],
+			["Hayes", "You know, I never actually thought about that. Outside of rigging the spinner, Chutes and Ladders is completely luck-based."],
+			["Bentley", "Exactly. I'm very lucky."],
+			["Hayes", "Thanks for rubbing it in."],
+			["Bentley", "No. I mean—"],
+			["Bentley", "I'm very lucky to have met you."],
+			["Hayes", "..."],
+			["Hayes", "Me too."],
+			["Bentley", "You're adorable. See you tomorrow!"],
+			["Hayes", "Bye!"]
 		]
 	}
 } else if (global.Scene == 25) {
 	Messages = [
-		["Piper", "Alright, bandmate."],
-		["Hayes", "I'm not your bandmate."],
-		["Piper", "Alright, friend."],
-		["Hayes", "I'm—"],
-		["Piper", "I thought of a song for us to hum today."],
-		["Hayes", "Lovely. Let's hear it."]
+		["Piper", "I brought the big guns today!"],
+		["Hayes", "Am I ready?"],
+		["Piper", "Sure you are! Just follow my lead."],
+		["Hayes", "Here goes nothing."]
 	]
 } else if (global.Scene == 26) {
 	if (global.Correct) {
 		Messages = [
-			["Piper", "You continue to impress me!"],
-			["Hayes", "Thanks!"],
-			["Piper", "Tomorrow, we'll try something even harder."],
-			["Hayes", "I love to hear it."]
+			["Piper", "Damn!! What a performance!"],
+			["Hayes", "I try."],
+			["Piper", "Trying is all the battle, really."],
+			["Piper", "Because even if you suck (you don't suck), you're getting that sweet, sweet experience."],
+			["Hayes", "That's a good way to look at it."],
+			["Piper", "For sure! I think so."],
+			["Hayes", "You know, Piper. That band idea doesn't sound half-bad."],
+			["Piper", "You think so?"],
+			["Hayes", "Well, maybe if we played separate instruments. We don't even have percussion."],
+			["Piper", "Percussion? Heh."],
+			["Hayes", "No, you cannot hit my head like a bongo."],
+			["Piper", "Please?"],
+			["Hayes", "No."],
+			["Piper", "Pretty please?"],
+			["Hayes", "Fine. Once."],
+			["Piper", "*bonk*"],
+			["Hayes", "Okay, that sounded pretty good. And it didn't even hurt."],
+			["Piper", "Really? I feel immeasurably intense pain all throughout my hand!"],
+			["Hayes", "Ah. Sorry."],
+			["Piper", "It was my idea. Let's chat later! I'm gonna go put some ice on this."],
+			["Hayes", "Peace."]
 		]
 	} else {
 		Messages = [
-			["Piper", "You're improving!"],
-			["Hayes", "I don't know about that."],
-			["Piper", "Practice makes perfect. Let's try again tomorrow."],
-			["Hayes", "I love to hear it."]
+			["Piper", "I see that potential in you. I really do."],
+			["Hayes", "I try."],
+			["Piper", "Trying is all the battle, really."],
+			["Piper", "Because even if you suck (you don't suck), you're getting that sweet, sweet experience."],
+			["Hayes", "That's a good way to look at it."],
+			["Piper", "For sure! I think so."],
+			["Hayes", "You know, Piper. That band idea doesn't sound half-bad."],
+			["Piper", "You think so?"],
+			["Hayes", "Well, maybe if we played separate instruments. We don't even have percussion."],
+			["Piper", "Percussion? Heh."],
+			["Hayes", "No, you cannot hit my head like a bongo."],
+			["Piper", "Please?"],
+			["Hayes", "No."],
+			["Piper", "Pretty please?"],
+			["Hayes", "Fine. Once."],
+			["Piper", "*bonk*"],
+			["Hayes", "Okay, that sounded pretty good. And it didn't even hurt."],
+			["Piper", "Really? I feel immeasurably intense pain all throughout my hand!"],
+			["Hayes", "Ah. Sorry."],
+			["Piper", "It was my idea. Let's chat later! I'm gonna go put some ice on this."],
+			["Hayes", "Peace."]
 		]
 	}
 } else if (global.Scene == 27) {
 	Messages = [
-		["Avery", "You awake, Hayes?"],
-		["Hayes", "Yes, actually. I was counting the stars."],
-		["Avery", "Mind if I join?"],
-		["Hayes", "Of course not. You introduced me to it, after all."],
-		["Avery", "Thank you."]
+		["Avery", "Hayes?"],
+		["Hayes", "Hi Avery."],
+		["Avery", "I'm sorry again about last night."],
+		["Hayes", "Please don't worry about it. Let's do some more counting."],
+		["Avery", "I'd love to."]
 	]
 } else if (global.Scene == 28) {
 	if (global.Correct) {
 		Messages = [
-			["Avery", "Mhm. That's how many I counted..."],
+			["Avery", "Same number here."],
+			["Hayes", "Hey, Avery?"],
+			["Avery", "Yeah?"],
+			["Hayes", "Why do you come see me every night?"],
+			["Avery", "That's a dumb question."],
+			["Hayes", "Please answer it."],
+			["Avery", "I like you. You're cool. I don't know!"],
+			["Hayes", "I like you, too."],
+			["Avery", "I—"],
+			["Avery", "I really needed to hear that."],
+			["Hayes", "It's just—"],
+			["Hayes", "I'm just not used to having friends."],
+			["Avery", "No kidding."],
 			["Avery", "..."],
-			["Avery", "...zzz..."],
-			["Hayes", "Avery. Wake up."],
-			["Avery", "Hmm?"],
-			["Hayes", "I don't—"],
-			["Avery", "Oh! I'm—"],
-			["Avery", "I'm sorry. I shouldn't have fallen asleep. I should've asked."],
-			["Hayes", "I just don't really feel comfortable sleeping next to anyone."],
-			["Avery", "Right. Right; I understand. I'll just head home."],
-			["Avery", "Sorry."],
-			["Hayes", "It's okay, Avery. I'm not upset. Good night."]
+			["Avery", "Is it okay if I sleep here? But like... a couple yards away?"],
+			["Hayes", "Avery. A couple yards away is NOT here. How about a couple inches?"],
+			["Avery", "I'd like that."]
 		]
 	} else {
 		Messages = [
-			["Avery", "Mm. I counted differently..."],
+			["Avery", "Different number here."],
+			["Hayes", "Hey, Avery?"],
+			["Avery", "Yeah?"],
+			["Hayes", "Why do you come see me every night?"],
+			["Avery", "That's a dumb question."],
+			["Hayes", "Please answer it."],
+			["Avery", "I like you. You're cool. I don't know!"],
+			["Hayes", "I like you, too."],
+			["Avery", "I—"],
+			["Avery", "I really needed to hear that."],
+			["Hayes", "It's just—"],
+			["Hayes", "I'm just not used to having friends."],
+			["Avery", "No kidding."],
 			["Avery", "..."],
-			["Avery", "...zzz..."],
-			["Hayes", "Avery. Wake up."],
-			["Avery", "Hmm?"],
-			["Hayes", "I don't—"],
-			["Avery", "Oh! I'm—"],
-			["Avery", "I'm sorry. I shouldn't have fallen asleep. I should've asked."],
-			["Hayes", "I just don't really feel comfortable sleeping next to anyone."],
-			["Avery", "Right. Right; I understand. I'll just head home."],
-			["Avery", "Sorry."],
-			["Hayes", "It's okay, Avery. I'm not upset. Good night."]
+			["Avery", "Is it okay if I sleep here? But like... a couple yards away?"],
+			["Hayes", "Avery. A couple yards away is NOT here. How about a couple inches?"],
+			["Avery", "I'd like that."]
 		]
 	}
 } else {

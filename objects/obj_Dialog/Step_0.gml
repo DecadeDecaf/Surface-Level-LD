@@ -52,8 +52,8 @@ if (space) {
 			} else if (global.Scene == 25) {
 				audio_sound_gain(snd_Theme, 0, 1500)
 				var song = instance_create_depth(960, 540, 0, obj_Song)
-				song.Notes = [3, 0, 3, 0, 1, 2, 3, 0, 3, 0, 1, 2]
-				song.Interval = [20, 20, 20, 20, 40, 40, 20, 20, 20, 20, 40, 40]
+				song.Notes = [1, 2, 0, 1, 2, 3, 1, 1, 2, 0, 1, 1, 2, 3]
+				song.Interval = [18, 18, 36, 18, 18, 36, 9, 9, 18, 36, 9, 9, 18, 36]
 			} else if (global.Scene == 27) {
 				audio_sound_gain(snd_Theme, 0.25, 1500)
 				instance_create_depth(960, 540, 0, obj_Sky)
