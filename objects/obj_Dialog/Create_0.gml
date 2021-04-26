@@ -569,15 +569,10 @@ if (global.Scene == 1) {
 	]
 } else if (global.Scene == 31) {
 	Messages = [
-			["Hayes", "Atlas should be here by now. Do they even have work on Sundays?"],
-			["Hayes", "They should, right? Sunday is when the newspaper circulates."]
-	]
-} else if (global.Scene == 32) {
-	Messages = [
 			["Hayes", "...Bentley isn't showing up either."],
 			["Hayes", "What did I do wrong?"]
 	]
-} else if (global.Scene == 33) {
+} else if (global.Scene == 32) {
 	Messages = [
 			["Hayes", "Even Piper won't come see me."],
 			["Hayes", "I'm—"],

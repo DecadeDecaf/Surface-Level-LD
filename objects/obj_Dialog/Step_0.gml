@@ -59,7 +59,7 @@ if (space) {
 				instance_create_depth(960, 540, 0, obj_Sky)
 			} else if (global.Scene == 29 && global.Ending != -1) {
 				instance_create_depth(960, 540, 0, obj_Ending)
-			} else if (global.Scene == 33 && global.Ending != -1) {
+			} else if (global.Scene == 32) {
 				instance_create_depth(960, 540, 0, obj_Ending)
 			} else {
 				global.End = true
